@@ -1,0 +1,81 @@
+[
+    {
+      "bookId": "001",
+      "bookName": "The Silent Patient",
+      "author": "Alex Michaelides",
+      "image": "silent_patient.jpg",
+      "review": "The Silent Patient is a gripping psychological thriller that will keep you on the edge of your seat until the very end. With its unexpected twists and turns, it's a must-read for fans of the genre.",
+      "totalPages": 336,
+      "rating": 4.5,
+      "category": "Mystery",
+      "tags": ["Suspense", "Psychological"],
+      "publisher": "Celadon Books",
+      "yearOfPublishing": 2019
+    },
+    {
+      "bookId": "002",
+      "bookName": "Educated",
+      "author": "Tara Westover",
+      "image": "educated.jpg",
+      "review": "Educated is a powerful memoir that explores the author's journey from growing up in a survivalist family in Idaho to eventually earning a PhD from Cambridge University. It's a testament to the power of education and resilience.",
+      "totalPages": 334,
+      "rating": 4.7,
+      "category": "Biography",
+      "tags": ["Memoir", "Education"],
+      "publisher": "Random House",
+      "yearOfPublishing": 2018
+    },
+    {
+      "bookId": "003",
+      "bookName": "Where the Crawdads Sing",
+      "author": "Delia Owens",
+      "image": "crawdads_sing.jpg",
+      "review": "Where the Crawdads Sing is a mesmerizing novel that transports you to the marshes of North Carolina. It's a compelling story of love, loss, and survival, with beautiful prose that will stay with you long after you finish reading.",
+      "totalPages": 384,
+      "rating": 4.6,
+      "category": "Fiction",
+      "tags": ["Nature", "Romance"],
+      "publisher": "G.P. Putnam's Sons",
+      "yearOfPublishing": 2018
+    },
+    {
+      "bookId": "004",
+      "bookName": "Becoming",
+      "author": "Michelle Obama",
+      "image": "becoming.jpg",
+      "review": "Becoming is an intimate and inspiring memoir that offers a glimpse into the life of one of the most iconic women of our time. Michelle Obama's honesty and grace shine through in this compelling narrative.",
+      "totalPages": 426,
+      "rating": 4.8,
+      "category": "Biography",
+      "tags": ["Memoir", "Politics"],
+      "publisher": "Crown Publishing Group",
+      "yearOfPublishing": 2018
+    },
+    {
+      "bookId": "005",
+      "bookName": "The Night Circus",
+      "author": "Erin Morgenstern",
+      "image": "night_circus.jpg",
+      "review": "The Night Circus is a magical and enchanting tale set in a mysterious circus that only opens at night. With its vivid imagery and lyrical prose, it's a mesmerizing read that will transport you to a world of wonder.",
+      "totalPages": 400,
+      "rating": 4.4,
+      "category": "Fantasy",
+      "tags": ["Magic", "Romance"],
+      "publisher": "Doubleday",
+      "yearOfPublishing": 2011
+    },
+    {
+      "bookId": "006",
+      "bookName": "The Girl on the Train",
+      "author": "Paula Hawkins",
+      "image": "girl_train.jpg",
+      "review": "The Girl on the Train is a gripping psychological thriller that will keep you guessing until the very end. With its unreliable narrator and twisty plot, it's a page-turner that you won't be able to put down.",
+      "totalPages": 336,
+      "rating": 4.2,
+      "category": "Mystery",
+      "tags": ["Suspense", "Thriller"],
+      "publisher": "Riverhead Books",
+      "yearOfPublishing": 2015
+    }
+  ]
+  

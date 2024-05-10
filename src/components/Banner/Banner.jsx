@@ -7,7 +7,7 @@ const Banner = () => {
             
             {/* Daisy hero  */}
             <div class="">
-  <div class="hero-content flex-col lg:flex-row-reverse">
+  <div class="hero-content flex-col lg:flex-row-reverse justify-around">
     <img src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg" class="max-w-sm rounded-lg shadow-2xl" />
     <div>
       <h1 class="text-5xl font-bold text-black">Books to freshen <br /> up your bookshelf</h1>
