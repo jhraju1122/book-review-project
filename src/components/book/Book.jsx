@@ -1,7 +1,7 @@
  
 
 const Book = ({book}) => {
-    const {image} = book;
+    const {image, bookName, author, rating, category} = book;
     return (
         <div>
            <figure> <img id="image" src={image} alt="" /></figure>
@@ -10,11 +10,11 @@ const Book = ({book}) => {
     <p className='text-green-400 font-semibold'>Young Adult</p>
     <p className='text-green-400 font-semibold'>Identity</p>
    </div>
-            <h2 className="card-title">Shoes</h2>
-            <p className='font-bold'>By : Awlad Hossain</p>
+            <h2 className="card-title">{bookName}</h2>
+            <p className='font-bold'>By : {author}</p>
     <div class="card-actions gap-48">
-      <div class="font-bold text-xl">Fiction</div> 
-      <div class="font-bold text-xl">5.00</div>
+      <div class="font-bold text-xl">{category}</div> 
+      <div class="font-bold text-xl">{rating}</div>
     </div>
             
            </div>
