@@ -4,7 +4,7 @@ const Book = ({book}) => {
     const {image} = book;
     return (
         <div>
-           <figure> <img src={image} alt="" /></figure>
+           <figure> <img id="image" src={image} alt="" /></figure>
            <div className="card-body">
            <div className='flex'>
     <p className='text-green-400 font-semibold'>Young Adult</p>

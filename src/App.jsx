@@ -3,7 +3,7 @@
 import Navbar from './components/Navbar/Navbar'
 import Banner from './components/Banner/Banner'
 import Books from './components/Books/Books'
-// import singlebook from './components/singlebook/singlebook'
+ 
  
 function App() {
   
@@ -14,7 +14,7 @@ function App() {
       <Navbar></Navbar>
       <Banner></Banner>
       <Books></Books>
-      {/* <singlebook></singlebook> */}
+    
     </>
   )
 }
