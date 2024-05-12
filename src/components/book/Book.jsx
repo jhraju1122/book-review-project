@@ -1,9 +1,9 @@
  
 
 const Book = ({book}) => {
-    const {image, bookName, author, rating, category} = book;
+    const {image, bookName, author, rating, category } = book;
     return (
-        <div>
+        <div id="card">
            <figure> <img id="image" src={image} alt="" /></figure>
            <div className="card-body">
            <div className='flex'>
