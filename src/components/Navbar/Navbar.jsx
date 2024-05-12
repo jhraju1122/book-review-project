@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from '../Header/Header';
 
 const Navbar = () => {
     return (
@@ -8,12 +9,7 @@ const Navbar = () => {
           <a class="btn btn-ghost text-2xl font-bold ">Book Vibe</a>
         </div>
          
-
-         <div className='text-center w-[700px] font-bold text-xl gap-8'>
-          <a className='text-green-400 border-spacing-4' href="#">Home</a>
-          <a href="#">Listed Books</a>
-          <a href="#">Pages to Read</a>
-         </div>
+         <Header></Header>
 
         
         <div class="flex-none w-[250px]">

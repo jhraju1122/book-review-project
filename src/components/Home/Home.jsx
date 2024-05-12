@@ -1,11 +1,14 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import Header from '../Header/Header';
+import Navbar from '../Navbar/Navbar';
+import Books from '../Books/Books';
+ 
 
 const Home = () => {
     return (
         <div className='text-center'>
-           <Header></Header>
+            <Navbar></Navbar>
+           <Books></Books>
             Hellow i am from home
             <Outlet></Outlet>
         </div>
