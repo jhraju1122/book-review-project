@@ -8,7 +8,7 @@
       "totalPages": 336,
       "rating": 4.5,
       "category": "Mystery",
-      "tags": ["Suspense", "Psychological"],
+      "tags": ["#Suspense", "#Psychological"],
       "publisher": "Celadon Books",
       "yearOfPublishing": 2019
     },
@@ -21,7 +21,7 @@
       "totalPages": 334,
       "rating": 4.7,
       "category": "Biography",
-      "tags": ["Memoir", "Education"],
+      "tags": ["#Memoir", "#Education"],
       "publisher": "Random House",
       "yearOfPublishing": 2018
     },
@@ -34,7 +34,7 @@
       "totalPages": 384,
       "rating": 4.6,
       "category": "Fiction",
-      "tags": ["Nature", "Romance"],
+      "tags": ["#Nature", "#Romance"],
       "publisher": "G.P. Putnam's Sons",
       "yearOfPublishing": 2018
     },
@@ -47,7 +47,7 @@
       "totalPages": 426,
       "rating": 4.8,
       "category": "Biography",
-      "tags": ["Memoir", "Politics"],
+      "tags": ["#Memoir", "#Politics"],
       "publisher": "Crown Publishing Group",
       "yearOfPublishing": 2018
     },
@@ -60,7 +60,7 @@
       "totalPages": 400,
       "rating": 4.4,
       "category": "Fantasy",
-      "tags": ["Magic", "Romance"],
+      "tags": ["#Magic", "#Romance"],
       "publisher": "Doubleday",
       "yearOfPublishing": 2011
     },
@@ -73,7 +73,7 @@
       "totalPages": 336,
       "rating": 4.2,
       "category": "Mystery",
-      "tags": ["Suspense", "Thriller"],
+      "tags": ["#Suspense", "#Thriller"],
       "publisher": "Riverhead Books",
       "yearOfPublishing": 2015
     }
