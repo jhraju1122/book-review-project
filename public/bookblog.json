@@ -1,6 +1,6 @@
 [
     {
-      "bookId": "001",
+      "id": "1",
       "bookName": "The Silent Patient",
       "author": "Alex Michaelides",
       "image": "https://i.ibb.co/pJJ6s9B/pngwing-1.png",
@@ -13,7 +13,7 @@
       "yearOfPublishing": 2019
     },
     {
-      "bookId": "002",
+      "id": "2",
       "bookName": "Educated",
       "author": "Tara Westover",
       "image": "https://i.ibb.co/DRGqX0C/kindpng-7318921.png",
@@ -26,7 +26,7 @@
       "yearOfPublishing": 2018
     },
     {
-      "bookId": "003",
+      "id": "3",
       "bookName": "Where the Crawdads Sing",
       "author": "Delia Owens",
       "image": "https://i.ibb.co/ypzdqzJ/kindpng-1064993.png",
@@ -39,7 +39,7 @@
       "yearOfPublishing": 2018
     },
     {
-      "bookId": "004",
+      "id": "4",
       "bookName": "Becoming",
       "author": "Michelle Obama",
       "image": "https://i.ibb.co/zFwnbSQ/aaaa.jpg",
@@ -52,7 +52,7 @@
       "yearOfPublishing": 2018
     },
     {
-      "bookId": "005",
+      "id": "5",
       "bookName": "The Night Circus",
       "author": "Erin Morgenstern",
       "image": "https://i.ibb.co/RbRqHht/assss.jpg",
@@ -65,7 +65,7 @@
       "yearOfPublishing": 2011
     },
     {
-      "bookId": "006",
+      "id": "6",
       "bookName": "The Girl on the Train",
       "author": "Paula Hawkins",
       "image": "https://i.ibb.co/1068rQg/asdf.jpg",
