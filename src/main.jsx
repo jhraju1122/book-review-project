@@ -12,6 +12,7 @@ import ListedBooks from './components/ListedBooks/ListedBooks.jsx';
 import PagestoRead from './components/PagestoRead/PagestoRead.jsx';
 import Book from './components/book/Book.jsx';
 import BookDetails from './components/BookDetails/BookDetails.jsx';
+import Books from './components/Books/Books.jsx';
  
  
  
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
     path: '/',
     element: <Home></Home>,
     children: [
+      {
+        path: '/',
+        element:  <Books></Books>
+      },
       {
         path: '/ListedBooks',
         element: <ListedBooks></ListedBooks>

@@ -4,7 +4,7 @@ import Header from '../Header/Header';
 const Navbar = () => {
     return (
         
-        <div class="navbar bg-base-100">
+        <div class="navbar bg-base-100 ">
         <div class="flex-1">
           <a class="btn btn-ghost text-2xl font-bold ">Book Vibe</a>
         </div>
