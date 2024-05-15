@@ -54,3 +54,21 @@
   height: 700px;
   width: 500px;
  }
+ #Bookslist{
+  margin-top: 50px;
+  font-size: 40px;
+  font-weight: 700;
+ }
+ #sortby{
+  margin-top: 50px;
+  font-size: 30px;
+  font-weight: 700;
+  background-color: #2ee882;
+  color: aliceblue;
+  height: 50px;
+ }
+ #read-tab{
+  font-size: 25px;
+  font-weight: 700;
+  
+ }

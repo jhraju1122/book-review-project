@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useLoaderData, useParams } from "react-router-dom";
+import { Link, useLoaderData, useParams } from "react-router-dom";
 
  
 
@@ -37,8 +37,9 @@ const [singleBook, setSingleBook] = useState(null)
       <p className="text-2xl">Year of Publishing: {singleBook?.yearOfPublishing}</p>
       <p className="text-2xl mb-10">Rating: {singleBook?.rating}</p>
       
-    <button id="button" className="btn ">Read</button>
-      <button id="button-2" className="btn ">Wishlist</button>
+    <Link id="button" className="btn " to="/PagestoRead" >Read</Link>
+    <Link id="button-2" className="btn " to="/ListedBooks">Wishlist</Link>
+       
 
       </div>
     </div>

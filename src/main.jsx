@@ -13,6 +13,7 @@ import PagestoRead from './components/PagestoRead/PagestoRead.jsx';
 import Book from './components/book/Book.jsx';
 import BookDetails from './components/BookDetails/BookDetails.jsx';
 import Books from './components/Books/Books.jsx';
+import Wishlist from './components/Wishlist/Wishlist.jsx';
  
  
  
@@ -36,10 +37,12 @@ const router = createBrowserRouter([
         element: <PagestoRead></PagestoRead>
       },
       //  {
-      //   path:'/Book/:id',
-      //   element: <Book></Book>,
-      //   loader: ({params}) => fetch('/bookblog.json'),
+      //    path:'/Wishlist',
+      //   element:<Wishlist></Wishlist>,
       //  },
+
+
+
        {
 path:'/Book/:id',
 element: <BookDetails></BookDetails>,
