@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 const ListedBooks = () => {
     return (
         <div>
-            {/* <h1 id='Bookslist'>Books</h1>
-            <Link id='sortby' className='btn'> */}
+            <h1 id='Bookslist'>Books</h1>
+            <Link>
     <div id='sortby' className="join">
     <select className="select select-bordered join-item">
     <option disabled selected>Sort By</option>
@@ -14,7 +14,7 @@ const ListedBooks = () => {
     <option>Publishar year</option>
   </select>
             </div>
-            {/* </Link> */}
+            </Link>
 
             {/* tab  */}
             <div role="tablist" class="tabs tabs-lifted">

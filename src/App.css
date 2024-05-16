@@ -66,6 +66,7 @@
   background-color: #2ee882;
   color: aliceblue;
   height: 50px;
+  margin-bottom: 70px;
  }
  #read-tab{
   font-size: 25px;
@@ -75,4 +76,10 @@
 option{
   font-size: 20px;
 }
- 
+ #chart{
+   margin-left: 520px;
+  height: 400px;
+  width: 550px;
+  background-color: rgba(232, 232, 225, 0.381);
+  border-radius: 20px;
+ }
