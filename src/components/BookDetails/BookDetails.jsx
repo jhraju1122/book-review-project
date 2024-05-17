@@ -1,10 +1,19 @@
 import { useEffect, useState } from "react";
 import { Link, useLoaderData, useParams } from "react-router-dom";
+import { savedDataToLocalStorage } from "../utility/localstorage";
 
  
 
 
 const BookDetails = () => {
+const [WishlistData, setWishlistData] = useState([])
+console.log(WishlistData);
+
+  useEffect(()=>{
+  const getDefaultData = JSON.parse( localStorage.getItem('books')) || [];
+  setWishlistData(getDefaultData);
+  }, []);
+
 const books = useLoaderData()
 const [singleBook, setSingleBook] = useState(null)
 	const { id } = useParams()
@@ -15,6 +24,13 @@ const [singleBook, setSingleBook] = useState(null)
 	}, [id])
     console.log(singleBook);
  const{ bookId, bookName, author, image , review, totalPages, rating, category, tags, publisher, yearOfPublishing} = singleBook || {};
+
+
+
+const handleData = ()=>{
+savedDataToLocalStorage(books);
+};
+
     return (
       <div className="flex ml-[543px] mt-20">
          
@@ -38,7 +54,7 @@ const [singleBook, setSingleBook] = useState(null)
       <p className="text-2xl mb-10">Rating: {singleBook?.rating}</p>
       
     <Link id="button" className="btn " to="/PagestoRead" >Read</Link>
-    <Link id="button-2" className="btn " to="/ListedBooks">Wishlist</Link>
+    <Link onClick={handleData} id="button-2" className="btn " to="/ListedBooks">Wishlist</Link>
        
 
       </div>
