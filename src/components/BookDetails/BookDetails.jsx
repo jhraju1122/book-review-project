@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useLoaderData, useParams } from "react-router-dom";
-import { savedDataToLocalStorage } from "../utility/localstorage";
+import { getDataFromLocal, savedDataToLocalStorage } from "../utility/localstorage";
 
  
 
@@ -18,7 +18,7 @@ const books = useLoaderData()
 const [singleBook, setSingleBook] = useState(null)
 	const { id } = useParams()
 	useEffect(() => {
-
+  const data =  getDataFromLocal();
 		const single = books.find((b) => b.id === id)
 		setSingleBook(single)
 	}, [id])
@@ -28,7 +28,8 @@ const [singleBook, setSingleBook] = useState(null)
 
 
 const handleData = ()=>{
-savedDataToLocalStorage(books);
+savedDataToLocalStorage(singleBook);
+
 };
 
     return (
@@ -46,7 +47,7 @@ savedDataToLocalStorage(books);
       <p className="font-semibold text-2xl mb-5 mt-5">{singleBook?.category}</p>
       <hr />
       <p className="text-2xl">Review:{singleBook?.review} </p>
-      <p className="font-bold text-2xl">Tag: {singleBook?.tags}</p>
+      <p className="font-bold text-2xl bg-slate-400  text-green-400">Tag: {singleBook?.tags}</p>
       <hr />
       <p className="text-2xl">Number of pages: {singleBook?.totalPages}</p>
       <p className="text-2xl">Publisher: {singleBook?.publisher}</p>
@@ -55,6 +56,7 @@ savedDataToLocalStorage(books);
       
     <Link id="button" className="btn " to="/PagestoRead" >Read</Link>
     <Link onClick={handleData} id="button-2" className="btn " to="/ListedBooks">Wishlist</Link>
+       
        
 
       </div>

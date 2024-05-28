@@ -14,6 +14,7 @@ import Book from './components/book/Book.jsx';
 import BookDetails from './components/BookDetails/BookDetails.jsx';
 import Books from './components/Books/Books.jsx';
 import Wishlist from './components/Wishlist/Wishlist.jsx';
+import ErrorPage from './components/Errorpage/ErrorPage.jsx';
  
  
  
@@ -23,6 +24,7 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <Home></Home>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: '/',
