@@ -15,7 +15,8 @@ import BookDetails from './components/BookDetails/BookDetails.jsx';
 import Books from './components/Books/Books.jsx';
 import Wishlist from './components/Wishlist/Wishlist.jsx';
 import ErrorPage from './components/Errorpage/ErrorPage.jsx';
- 
+ import PopularLiterature from './components/Navbar/PopularLiterature.jsx';
+import Webinar from './components/Navbar/Webinar.jsx';
  
  
  
@@ -38,11 +39,15 @@ const router = createBrowserRouter([
         path: '/PagestoRead',
         element: <PagestoRead></PagestoRead>
       },
-      //  {
-      //    path:'/Wishlist',
-      //   element:<Wishlist></Wishlist>,
-      //  },
-
+      {
+        path: '/PopularLiterature',
+        element: <PopularLiterature></PopularLiterature>
+      },
+      {
+        path: '/Webinar',
+        element: <Webinar></Webinar>
+      },
+      
 
 
        {
